@@ -1,0 +1,320 @@
+18LINEAR REG words_n=300 train_share=0.8
+Error: 0.018497412866496678
+Random error: 0.024262659806627566
+SHAP: [('democrats', 0.0381646948260816), ('fake', 0.03517170757693329), ('united', 0.03252970666128656), ('thank', 0.029551844746927035), ('election', 0.028461195361489125)]
+MLP REG words_n=300 train_share=0.8 epochs=50 layers=(64,)
+Error: 0.018919005952197778
+Random error: 0.024826867435555917
+MLP REG words_n=300 train_share=0.8 epochs=50 layers=(128,)
+Error: 0.021004146672872037
+Random error: 0.026347577762472388
+MLP REG words_n=300 train_share=0.8 epochs=50 layers=(256,)
+Error: 0.01882884314619148
+Random error: 0.024665358410265428
+MLP REG words_n=300 train_share=0.8 epochs=50 layers=(512,)
+Error: 0.020673913791392832
+Random error: 0.026569356873418777
+MLP REG words_n=300 train_share=0.8 epochs=50 layers=(128, 32)
+Error: 0.019264235910251826
+Random error: 0.025126456448351264
+MLP REG words_n=300 train_share=0.8 epochs=50 layers=(128, 64)
+Error: 0.019725074455656348
+Random error: 0.025601498552196855
+
+LINEAR REG words_n=300 train_share=0.7
+Error: 0.018310910207298987
+Random error: 0.023920223741682577
+SHAP: [('democrats', 0.03781157464064468), ('fake', 0.03534184366941606), ('united', 0.031231453820357906), ('thank', 0.02987353755269467), ('election', 0.028633782687726685)]
+MLP REG words_n=300 train_share=0.7 epochs=50 layers=(64,)
+Error: 0.019030254546271535
+Random error: 0.02462700471149188
+MLP REG words_n=300 train_share=0.7 epochs=50 layers=(128,)
+Error: 0.019758333178243527
+Random error: 0.02514639602121582217
+Error: 0.01897028410324183
+Random error: 0.025130848394263522
+MLP REG words_n=300 train_share=0.7 epochs=50 layers=(512,)
+Error: 0.017465514568811718
+Random error: 0.023465945687745897
+MLP REG words_n=300 train_share=0.7 epochs=50 layers=(128, 32)
+Error: 0.017526871630663677
+Random error: 0.02328590836366165
+MLP REG words_n=300 train_share=0.7 epochs=50 layers=(128, 64)
+Error: 0.01882178189586164
+Random error: 0.024554846778815455
+
+LINEAR REG words_n=150 train_share=0.8
+Error: 0.017575304192800442
+Random error: 0.02432293575383904
+SHAP: [('hunt', 0.1160030788944344), ('fbi', 0.03876093307856342), ('democrats', 0.030068326811378332), ('fake', 0.029933646792453236), ('thank', 0.02855635608364257)]
+MLP REG words_n=150 train_share=0.8 epochs=50 layers=(64,)
+Error: 0.019676065630004607
+Random error: 0.026371250853031707
+MLP REG words_n=150 train_share=0.8 epochs=50 layers=(128,)
+Error: 0.020085102030641868
+Random error: 0.02634168341986985
+MLP REG words_n=150 train_share=0.8 epochs=50 layers=(256,)
+Error: 0.01938703401136987
+Random error: 0.025775672195343696
+MLP REG words_n=150 train_share=0.8 epochs=50 layers=(512,)
+Error: 0.020338681423190067
+Random error: 0.027290938003328467
+MLP REG words_n=150 train_share=0.8 epochs=50 layers=(128, 32)
+Error: 0.019002359502742445
+Random error: 0.02531230717576785
+MLP REG words_n=150 train_share=0.8 epochs=50 layers=(128, 64)
+Error: 0.01886314335010048
+Random error: 0.025314362631576295
+
+LINEAR REG words_n=150 train_share=0.7
+Error: 0.017374177320308326
+Random error: 0.02408456576061215
+SHAP: [('hunt', 0.1613621768399566), ('fbi', 0.03820046668553667), ('democrats', 0.029677526720024733), ('fake', 0.029493964600514514), ('thank', 0.029127507213349696)]
+MLP REG words_n=150 train_share=0.7 epochs=50 layers=(64,)
+Error: 0.01953499395521032
+Random error: 0.025840836376102707
+MLP REG words_n=150 train_share=0.7 epochs=50 layers=(128,)
+Error: 0.020989060213799395
+Random error: 0.027233569334255206
+MLP REG words_n=150 train_share=0.7 epochs=50 layers=(256,)
+Error: 0.019104666275674777
+Random error: 0.025679559429022114
+MLP REG words_n=150 train_share=0.7 epochs=50 layers=(512,)
+Error: 0.0190996106888594
+Random error: 0.025801085469581864
+MLP REG words_n=150 train_share=0.7 epochs=50 layers=(128, 32)
+Error: 0.018461479256448702
+Random error: 0.02485300373209954
+MLP REG words_n=150 train_share=0.7 epochs=50 layers=(128, 64)
+Error: 0.017216561253472058
+Random error: 0.02411151585642634
+
+LINEAR REG words_n=100 train_share=0.8
+Error: 0.017300783295613145
+Random error: 0.02440433385675036
+SHAP: [('hunt', 0.10067548920532185), ('north', 0.03358349454591485), ('fbi', 0.033094711852363984), ('comey', 0.029503148495279272), ('presidential', 0.02903085137425653)]
+MLP REG words_n=100 train_share=0.8 epochs=50 layers=(64,)
+Error: 0.020837627758347986
+Random error: 0.02700424934311645
+MLP REG words_n=100 train_share=0.8 epochs=50 layers=(128,)
+Error: 0.020425934698069016
+Random error: 0.02654417867877028
+MLP REG words_n=100 train_share=0.8 epochs=50 layers=(256,)
+Error: 0.02124420343961198
+Random error: 0.027948057736212357
+MLP REG words_n=100 train_share=0.8 epochs=50 layers=(512,)
+Error: 0.01933412118611279
+Random error: 0.02607091756272869
+MLP REG words_n=100 train_share=0.8 epochs=50 layers=(128, 32)
+Error: 0.021822891097166064
+Random error: 0.028302027059588307
+MLP REG words_n=100 train_share=0.8 epochs=50 layers=(128, 64)
+Error: 0.01910816547048076
+Random error: 0.026160401873212107
+
+LINEAR REG words_n=100 train_share=0.7
+Error: 0.017093448026595057
+Random error: 0.02442865968008145
+SHAP: [('hunt', 0.14505134348043014), ('north', 0.038117898255563734), ('fbi', 0.03236783233976093), ('allowed', 0.03066851755906323), ('comey', 0.029367173684079227)]
+MLP REG words_n=100 train_share=0.7 epochs=50 layers=(64,)
+Error: 0.020271787209380453
+Random error: 0.026382355354413804
+MLP REG words_n=100 train_share=0.7 epochs=50 layers=(128,)
+Error: 0.021046124635460146
+Random error: 0.027044831614190534
+MLP REG words_n=100 train_share=0.7 epochs=50 layers=(256,)
+Error: 0.017960044403908915
+Random error: 0.025096282115659164
+MLP REG words_n=100 train_share=0.7 epochs=50 layers=(512,)
+Error: 0.018082612941619777
+Random error: 0.024705212841096186
+MLP REG words_n=100 train_share=0.7 epochs=50 layers=(128, 32)
+Error: 0.019744549043633656
+Random error: 0.026595006470404695
+MLP REG words_n=100 train_share=0.7 epochs=50 layers=(128, 64)
+Error: 0.020355701546806267
+Random error: 0.027189266986605107
+
+LINEAR REG words_n=60 train_share=0.8
+Error: 0.01703589903332369
+Random error: 0.0248809011832504
+SHAP: [('hunt', 0.08517935708128882), ('schiff', 0.03377541536949203), ('fbi', 0.031076198217157375), ('approval', 0.030734983594272958), ('illegally', 0.030215531116965254)]
+MLP REG words_n=60 train_share=0.8 epochs=50 layers=(64,)
+Error: 0.02248253312155826
+Random error: 0.02890514445559697
+MLP REG words_n=60 train_share=0.8 epochs=50 layers=(128,)
+Error: 0.020681275454889163
+Random error: 0.027824076501558218
+MLP REG words_n=60 train_share=0.8 epochs=50 layers=(256,)
+Error: 0.019481183266689985
+Random error: 0.026585920434272027
+MLP REG words_n=60 train_share=0.8 epochs=50 layers=(512,)
+Error: 0.01803172032057571
+Random error: 0.02611191639299816
+MLP REG words_n=60 train_share=0.8 epochs=50 layers=(128, 32)
+Error: 0.01915337985123405
+Random error: 0.026271985919383865
+MLP REG words_n=60 train_share=0.8 epochs=50 layers=(128, 64)
+Error: 0.019075998845101104
+Random error: 0.02693801216056811
+
+LINEAR REG words_n=60 train_share=0.7
+Error: 0.016860170851585747
+Random error: 0.024496286305000343
+SHAP: [('hunt', 0.12978463776541338), ('schiff', 0.032814291804213566), ('north', 0.03266512380974601), ('illegally', 0.03144900008678439), ('fbi', 0.030446151782373386)]
+MLP REG words_n=60 train_share=0.7 epochs=50 layers=(64,)
+Error: 0.02187178858015089
+Random error: 0.028300291233390448
+MLP REG words_n=60 train_share=0.7 epochs=50 layers=(128,)
+Error: 0.020016250957636122
+Random error: 0.026733779475647174
+MLP REG words_n=60 train_share=0.7 epochs=50 layers=(256,)
+Error: 0.017997188800708244
+Random error: 0.0257564864625494
+MLP REG words_n=60 train_share=0.7 epochs=50 layers=(512,)
+Error: 0.020004938846364215
+Random error: 0.027147455532613916
+MLP REG words_n=60 train_share=0.7 epochs=50 layers=(128, 32)
+Error: 0.01908995419287557
+Random error: 0.0265864171750682
+MLP REG words_n=60 train_share=0.7 epochs=50 layers=(128, 64)
+Error: 0.01902920836313535
+Random error: 0.0263746458617558
+
+LINEAR REG words_n=50 train_share=0.8
+Error: 0.016962262901222852
+Random error: 0.024857399970797535
+SHAP: [('hunt', 0.09028769766336414), ('jong', 0.04006736030696273), ('schiff', 0.03123533051589789), ('fbi', 0.030230297472425505), ('north', 0.03010845606699272)]
+MLP REG words_n=50 train_share=0.8 epochs=50 layers=(64,)
+Error: 0.019712238126080823
+Random error: 0.026339996272302844
+MLP REG words_n=50 train_share=0.8 epochs=50 layers=(128,)
+Error: 0.01833228142623354
+Random error: 0.02539202913769654
+MLP REG words_n=50 train_share=0.8 epochs=50 layers=(256,)
+Error: 0.01840314997460193
+Random error: 0.025561382014274457
+MLP REG words_n=50 train_share=0.8 epochs=50 layers=(512,)
+Error: 0.018397221428145753
+Random error: 0.025872882681659694
+MLP REG words_n=50 train_share=0.8 epochs=50 layers=(128, 32)
+Error: 0.016933285443067353
+Random error: 0.024794039655267233
+MLP REG words_n=50 train_share=0.8 epochs=50 layers=(128, 64)
+Error: 0.018509071524401868
+Random error: 0.025873863417877823
+
+LINEAR REG words_n=50 train_share=0.7
+Error: 0.01681283803965012
+Random error: 0.024558904417435766
+SHAP: [('hunt', 0.13339679351956335), ('jong', 0.04837645505883062), ('north', 0.032670839177019254), ('illegally', 0.030945233649758146), ('presidential', 0.030135129031476932)]
+MLP REG words_n=50 train_share=0.7 epochs=50 layers=(64,)
+Error: 0.02081562764254922
+Random error: 0.027879513054182153
+MLP REG words_n=50 train_share=0.7 epochs=50 layers=(128,)
+Error: 0.019493076065095597
+Random error: 0.026784527137264293
+MLP REG words_n=50 train_share=0.7 epochs=50 layers=(256,)
+Error: 0.017797734650552594
+Random error: 0.025517956351809062
+MLP REG words_n=50 train_share=0.7 epochs=50 layers=(512,)
+Error: 0.019773010809759885
+Random error: 0.027525510361762224
+MLP REG words_n=50 train_share=0.7 epochs=50 layers=(128, 32)
+Error: 0.018232599500265498
+Random error: 0.025644476035790856
+MLP REG words_n=50 train_share=0.7 epochs=50 layers=(128, 64)
+Error: 0.019098971694134437
+Random error: 0.026185552953365006
+
+LINEAR REG words_n=30 train_share=0.8
+Error: 0.017016362268764955
+Random error: 0.024995105802152758
+SHAP: [('hunt', 0.08908245946623486), ('impeach', 0.06473818622114999), ('flag', 0.057644695019903554), ('powerful', 0.04325824162356351), ('college', 0.04144807360471275)]
+MLP REG words_n=30 train_share=0.8 epochs=50 layers=(64,)
+Error: 0.01857971327906397
+Random error: 0.026363228738121674
+MLP REG words_n=30 train_share=0.8 epochs=50 layers=(128,)
+Error: 0.019189260120684802
+Random error: 0.02627311293601689
+MLP REG words_n=30 train_share=0.8 epochs=50 layers=(256,)
+Error: 0.01685977656637328
+Random error: 0.024661603535375394
+MLP REG words_n=30 train_share=0.8 epochs=50 layers=(512,)
+Error: 0.017041653951970458
+Random error: 0.02548049203544229
+MLP REG words_n=30 train_share=0.8 epochs=50 layers=(128, 32)
+Error: 0.01909230327130458
+Random error: 0.026571118879398056
+MLP REG words_n=30 train_share=0.8 epochs=50 layers=(128, 64)
+Error: 0.016518569650318192
+Random error: 0.024839228536356357
+
+LINEAR REG words_n=30 train_share=0.7
+Error: 0.016898002390687058
+Random error: 0.02469608858928146
+SHAP: [('hunt', 0.1298848886244938), ('impeach', 0.0704651993639369), ('flag', 0.05662058897807651), ('college', 0.046328179135171246), ('powerful', 0.04519929060783702)]
+MLP REG words_n=30 train_share=0.7 epochs=50 layers=(64,)
+Error: 0.019504332652429804
+Random error: 0.026422894023660146
+MLP REG words_n=30 train_share=0.7 epochs=50 layers=(128,)
+Error: 0.021087507546921864
+Random error: 0.02766368159430746
+MLP REG words_n=30 train_share=0.7 epochs=50 layers=(256,)
+Error: 0.017858751468448345
+Random error: 0.02500386140515933
+MLP REG words_n=30 train_share=0.7 epochs=50 layers=(512,)
+Error: 0.018047778425949294
+Random error: 0.025596681768406997
+MLP REG words_n=30 train_share=0.7 epochs=50 layers=(128, 32)
+Error: 0.018556722181290623
+Random error: 0.025954662696570985
+MLP REG words_n=30 train_share=0.7 epochs=50 layers=(128, 64)
+Error: 0.016212727236489838
+Random error: 0.024477160876327453
+
+LINEAR REG words_n=10 train_share=0.8
+Error: 23217350.90771267
+Random error: 23217350.91609967
+SHAP: [('churchill', 1113539848989.5159), ('rico', 681202184098.5577), ('laden', 490927780509.6784), ('karl', 190962711072.78354), ('mar', 131152313372.5348)]
+MLP REG words_n=10 train_share=0.8 epochs=50 layers=(64,)
+Error: 0.020248926173730624
+Random error: 0.027208059390991732
+MLP REG words_n=10 train_share=0.8 epochs=50 layers=(128,)
+Error: 0.017958642005946074
+Random error: 0.026303141075129217
+MLP REG words_n=10 train_share=0.8 epochs=50 layers=(256,)
+Error: 0.018720628898966557
+Random error: 0.02667164253078193
+MLP REG words_n=10 train_share=0.8 epochs=50 layers=(512,)
+Error: 0.01794780419054179
+Random error: 0.02606165894444739
+MLP REG words_n=10 train_share=0.8 epochs=50 layers=(128, 32)
+Error: 0.01693105101545925
+Random error: 0.025825622820773497
+MLP REG words_n=10 train_share=0.8 epochs=50 layers=(128, 64)
+Error: 0.018980831307139782
+Random error: 0.026987577740578417
+
+LINEAR REG words_n=10 train_share=0.7
+Error: 4374390.386024194
+Random error: 4374390.393832834
+SHAP: [('karl', 53611665264.19712), ('bin', 38149635952.906906), ('mar', 16557456006.528246), ('rico', 6360800794.665028), ('winston', 1613297537.1352065)]
+MLP REG words_n=10 train_share=0.7 epochs=50 layers=(64,)
+Error: 0.019890030938456538
+Random error: 0.02754052189547937
+MLP REG words_n=10 train_share=0.7 epochs=50 layers=(128,)
+Error: 0.018212035600574713
+Random error: 0.025975325910319164
+MLP REG words_n=10 train_share=0.7 epochs=50 layers=(256,)
+Error: 0.01889340851761271
+Random error: 0.026551431372632016
+MLP REG words_n=10 train_share=0.7 epochs=50 layers=(512,)
+Error: 0.01597120387714158
+Random error: 0.024371463512231673
+MLP REG words_n=10 train_share=0.7 epochs=50 layers=(128, 32)
+Error: 0.016856044388338178
+Random error: 0.025097779102411736
+MLP REG words_n=10 train_share=0.7 epochs=50 layers=(128, 64)
+Error: 0.016770326276154407
+Random error: 0.024913958497149506

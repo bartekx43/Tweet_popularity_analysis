@@ -1,0 +1,158 @@
+
+LINEAR REG words_n=10 train_share=0.75
+Error: 28861923.836110875
+Random error: 28861923.84423301
+SHAP: [('churchill', 637670694282.5607), ('mar', 404609648987.7672), ('puerto', 286527844947.2911), ('rove', 266794221104.44366), ('quid', 29935217674.70976)]
+MLP REG words_n=10 train_share=0.75 epochs=10 layers=(512,)
+Error: 0.016622805255847518
+Random error: 0.02464969515194638
+MLP REG words_n=10 train_share=0.75 epochs=10 layers=(1024, 512)
+Error: 0.015170027910104356
+Random error: 0.024446839623699958
+MLP REG words_n=10 train_share=0.75 epochs=10 layers=2599
+Error: 0.016023035247341638
+Random error: 0.023788809724983928
+MLP REG words_n=10 train_share=0.75 epochs=10 layers=(256, 128, 64)
+Error: 0.016486871196049253
+Random error: 0.02520456148155559
+MLP REG words_n=10 train_share=0.75 epochs=10 layers=(1024, 512, 256)
+Error: 0.014585301074490447
+Random error: 0.023597919748589647
+MLP REG words_n=10 train_share=0.75 epochs=25 layers=(512,)
+Error: 0.016886975293545256
+Random error: 0.02531649449851988
+MLP REG words_n=10 train_share=0.75 epochs=25 layers=(1024, 512)
+Error: 0.017006050037129596
+Random error: 0.025863638060411274
+MLP REG words_n=10 train_share=0.75 epochs=25 layers=2599
+Error: 0.015750134207627064
+Random error: 0.023994711210140237
+MLP REG words_n=10 train_share=0.75 epochs=25 layers=(256, 128, 64)
+Error: 0.015457105620928991
+Random error: 0.024606563760672263
+MLP REG words_n=10 train_share=0.75 epochs=25 layers=(1024, 512, 256)
+Error: 0.01467235694701755
+Random error: 0.02389761093390953
+MLP REG words_n=10 train_share=0.75 epochs=50 layers=(512,)
+Error: 0.016886975293545256
+Random error: 0.02510930216383455
+MLP REG words_n=10 train_share=0.75 epochs=50 layers=(1024, 512)
+Error: 0.017006050037129596
+Random error: 0.025963627706070667
+MLP REG words_n=10 train_share=0.75 epochs=50 layers=2599
+Error: 0.015750134207627064
+Random error: 0.02428899450190955
+MLP REG words_n=10 train_share=0.75 epochs=50 layers=(256, 128, 64)
+Error: 0.015457105620928991
+Random error: 0.024500034268559436
+MLP REG words_n=10 train_share=0.75 epochs=50 layers=(1024, 512, 256)
+Error: 0.01467235694701755
+Random error: 0.023870125501733997
+
+LINEAR REG words_n=10 train_share=0.65
+Error: 2615669.304271393
+Random error: 2615669.311937315
+SHAP: [('rico', 52790832194.085106), ('rove', 37010595654.46294), ('winston', 34287940424.940334), ('laden', 11461761648.19607), ('mar', 11352310509.358828)]
+MLP REG words_n=10 train_share=0.65 epochs=10 layers=(512,)
+Error: 0.017451133806335055
+Random error: 0.025214032471420345
+MLP REG words_n=10 train_share=0.65 epochs=10 layers=(1024, 512)
+Error: 0.016626260751679833
+Random error: 0.02512076724788181
+MLP REG words_n=10 train_share=0.65 epochs=10 layers=2599
+Error: 0.016794936134020135
+Random error: 0.024990367987203325
+MLP REG words_n=10 train_share=0.65 epochs=10 layers=(256, 128, 64)
+Error: 0.01617614770217992
+Random error: 0.02436620254866173
+MLP REG words_n=10 train_share=0.65 epochs=10 layers=(1024, 512, 256)
+Error: 0.015407091346511295
+Random error: 0.024759196947530992
+MLP REG words_n=10 train_share=0.65 epochs=25 layers=(512,)
+Error: 0.017032475096285003
+Random error: 0.02543213106111377
+MLP REG words_n=10 train_share=0.65 epochs=25 layers=(1024, 512)
+Error: 0.016051843851672874
+Random error: 0.024709876663660334
+MLP REG words_n=10 train_share=0.65 epochs=25 layers=2599
+Error: 0.01680377727777754
+Random error: 0.02454693136327792
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+MLP REG words_n=10 train_share=0.65 epochs=25 layers=(256, 128, 64)
+Error: 0.014435175421064811
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Random error: 0.023159837364044547
+MLP REG words_n=10 train_share=0.65 epochs=25 layers=(1024, 512, 256)
+Error: 0.016500300773404124
+Random error: 0.02562702849657296
+MLP REG words_n=10 train_share=0.65 epochs=50 layers=(512,)
+Error: 0.017032475096285003
+Random error: 0.025190140498266688
+MLP REG words_n=10 train_share=0.65 epochs=50 layers=(1024, 512)
+Error: 0.016051843851672874
+Random error: 0.0247475304908915
+MLP REG words_n=10 train_share=0.65 epochs=50 layers=2599
+Error: 0.01680377727777754
+Random error: 0.024509677824850282
+MLP REG words_n=10 train_share=0.65 epochs=50 layers=(256, 128, 64)
+Error: 0.014435175421064811
+Random error: 0.023361033057871357
+MLP REG words_n=10 train_share=0.65 epochs=50 layers=(1024, 512, 256)
+Error: 0.016500300773404124
+Random error: 0.02564455144391333
+
+LINEAR REG words_n=10 train_share=0.5
+Error: 38497834.71397134
+Random error: 38497834.72113731
+SHAP: [('rove', 272428645723.50867), ('quid', 182273337027.65652), ('winston', 140752956389.27432), ('mar', 139793853593.47278), ('witch', 112283998804.89946)]
+MLP REG words_n=10 train_share=0.5 epochs=10 layers=(512,)
+Error: 0.01746392305998409
+Random error: 0.02485195553633197
+MLP REG words_n=10 train_share=0.5 epochs=10 layers=(1024, 512)
+Error: 0.016229653113112696
+Random error: 0.024522597375533067
+MLP REG words_n=10 train_share=0.5 epochs=10 layers=2599
+Error: 0.017566240210358765
+Random error: 0.02527464257323429
+MLP REG words_n=10 train_share=0.5 epochs=10 layers=(256, 128, 64)
+Error: 0.01729130647801761
+Random error: 0.02536760737191323
+MLP REG words_n=10 train_share=0.5 epochs=10 layers=(1024, 512, 256)
+Error: 0.01633825511680901
+Random error: 0.0247780532644055
+MLP REG words_n=10 train_share=0.5 epochs=25 layers=(512,)
+Error: 0.017615185020689005
+Random error: 0.025163896854444305
+MLP REG words_n=10 train_share=0.5 epochs=25 layers=(1024, 512)
+Error: 0.01417016273353869
+Random error: 0.02312229652348781
+MLP REG words_n=10 train_share=0.5 epochs=25 layers=2599
+Error: 0.016846416266001113
+Random error: 0.024394173353498114
+MLP REG words_n=10 train_share=0.5 epochs=25 layers=(256, 128, 64)
+Error: 0.015293703872162764
+Random error: 0.023665611895273622
+MLP REG words_n=10 train_share=0.5 epochs=25 layers=(1024, 512, 256)
+Error: 0.017667813743407812
+Random error: 0.02511749845691332
+MLP REG words_n=10 train_share=0.5 epochs=50 layers=(512,)
+Error: 0.017615185020689005
+Random error: 0.02534418567223466
+MLP REG words_n=10 train_share=0.5 epochs=50 layers=(1024, 512)
+Error: 0.01417016273353869
+Random error: 0.022989942468044023
+MLP REG words_n=10 train_share=0.5 epochs=50 layers=2599
+Error: 0.016846416266001113
+Random error: 0.024537661040483293
+MLP REG words_n=10 train_share=0.5 epochs=50 layers=(256, 128, 64)
+Error: 0.015293703872162764
+Random error: 0.023682302469610356
+MLP REG words_n=10 train_share=0.5 epochs=50 layers=(1024, 512, 256)
+Error: 0.017667813743407812
+Random error: 0.025110818729655912
+
+
+
